@@ -1,24 +1,117 @@
-body{
-	font-size: 45pt;
-	font-family: 'tommy_hilfiger_afregular', sans-serif;
-	background-image: url(../pic/background.png);
-	background-repeat: no-repeat;
-	color:black;
+/*--------------------------BANNER-----------------------------------------------*/
+#banner_section{
+    background-image: url("../pic/banner.jpg"); 
 }
-div{
-    position: fixed;
-    top: 50%;
-    left: 50%;
-    margin-top: -150px;
-    margin-left: -200px;
+#web-pic{
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    box-shadow: 0 0 3px rgba(0, 0, 0, .8);
+    -webkit-box-shadow: 0 0 3px rgba(0, 0, 0, .8);
+    -moz-box-shadow: 0 0 3px rgba(0, 0, 0, .8);
+    margin-left:100px;
+}
+#menu{
+    font-family:'ubuntu-titletitle',sans-serif;
+    font-size: 2.25em;
+    text-align: center;
+    font-style: normal;
+    margin-left:0;
+}
+#menu a{
+    text-decoration: none;
+    color:white;
+}
+#menu ul {
+    height: auto;
+}
+#menu li {
+    display: inline;
+    padding-left:30px;
+
+}
+/*--------------------------BANNER-----------------------------------------------*/
+body{
+    margin:0;
+    padding:0;
+}
+body h1{
+    font-family: 'tommy_hilfiger_afregular',sans-serif;
+
+}
+body p{
+    font-family:'geosanslightregular',sans-serif;
+}
+body span{
+    font-family: 'go_around_the_booksregular',sans-serif;
+}
+.dark{
+    top:0;
+    background-color: #E9E9E9;
+    box-shadow: 0 0 1px rgba(0, 0, 0, .8);
+    -webkit-box-shadow: 0 0 1px rgba(0, 0, 0, .8);
+    -moz-box-shadow: 0 0 1px rgba(0, 0, 0, .8);
+}
+#welcome h1{
+    padding-left: 30px;
+}
+
+    
+
+#personal-picture{
+    width: 300px;
+    height: 300px;
+    border-radius: 100px;
+    -webkit-border-radius: 100px;
+    -moz-border-radius: 100px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, .8);
+    -webkit-box-shadow: 0 0 5px rgba(0, 0, 0, .8);
+    -moz-box-shadow: 0 0 5px rgba(0, 0, 0, .8);
+}
+#personal-picture a{
+    padding-left:400px;
+}
+@font-face {
+    font-family: 'ubuntu-titletitle';
+    src: url('../font/ubuntu-title-webfont.eot');
+    src: url('../font/ubuntu-title-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../font/ubuntu-title-webfont.woff') format('woff'),
+         url('../font/ubuntu-title-webfont.ttf') format('truetype'),
+         url('../font/ubuntu-title-webfont.svg#ubuntu-titletitle') format('svg');
+    font-weight: normal;
+    font-style: normal;
 }
 @font-face {
     font-family: 'tommy_hilfiger_afregular';
-    src: url('font/tommy___-webfont.eot');
-    src: url('font/tommy___-webfont.eot?#iefix') format('embedded-opentype'),
-         url('font/tommy___-webfont.woff') format('woff'),
-         url('font/tommy___-webfont.ttf') format('truetype'),
-         url('font/tommy___-webfont.svg#tommy_hilfiger_afregular') format('svg');
+    src: url('../font/tommy___-webfont.eot');
+    src: url('../font/tommy___-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../font/tommy___-webfont.woff') format('woff'),
+         url('../font/tommy___-webfont.ttf') format('truetype'),
+         url('../font/tommy___-webfont.svg#tommy_hilfiger_afregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'geosanslightregular';
+    src: url('../font/geosanslight-webfont.eot');
+    src: url('../font/geosanslight-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../font/geosanslight-webfont.woff') format('woff'),
+         url('../font/geosanslight-webfont.ttf') format('truetype'),
+         url('../font/geosanslight-webfont.svg#geosanslightregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'go_around_the_booksregular';
+    src: url('../font/go_around_the_books-webfont.eot');
+    src: url('../font/go_around_the_books-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../font/go_around_the_books-webfont.woff') format('woff'),
+         url('../font/go_around_the_books-webfont.ttf') format('truetype'),
+         url('../font/go_around_the_books-webfont.svg#go_around_the_booksregular') format('svg');
     font-weight: normal;
     font-style: normal;
 
