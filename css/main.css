@@ -79,11 +79,11 @@
             transition: all 0.7s ease-in-out;          
   }
   .nav-hide{
-    -webkit-transform: translate(0px,-8em);
-       -moz-transform: translate(0px,-8em);
-        -ms-transform: translate(0px,-8em);
-         -o-transform: translate(0px,-8em);
-            transform: translate(0px,-8em);
+    -webkit-transform: translate(0px,-9em);
+       -moz-transform: translate(0px,-9em);
+        -ms-transform: translate(0px,-9em);
+         -o-transform: translate(0px,-9em);
+            transform: translate(0px,-9em);
     -webkit-transition: all 0.7s ease-in-out;
        -moz-transition: all 0.7s ease-in-out;
         -ms-transition: all 0.7s ease-in-out;
