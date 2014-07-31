@@ -122,9 +122,10 @@
 
 /*--------------------------BANNER-----------------------------------------------*/
 #banner_section{
-	background-image: url("../pic/banner.jpg"); 
+	background-image: url("../pic/banner.png"); 
   width:100%;
   position:fixed;
+  background-repeat: repeat;
   z-index: 999;
   height:8em;
 }
@@ -296,7 +297,8 @@ footer{
   height:6em;
   bottom:0;
   left:0;
-  background-image: url("../pic/banner.jpg");
+  background-image: url("../pic/banner.png");
+  background-repeat: repeat;
   display:table;
   vertical-align: middle;
 }
