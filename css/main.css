@@ -1,4 +1,4 @@
-@media (max-width: 800px) {
+@media (max-width: 960px) {
   #menu{
     display:none;
   }
@@ -111,7 +111,7 @@
 }
 
 
-@media (min-width: 800px){
+@media (min-width: 960px) {
   .border-menu{
     display:none;
   }
